@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=B612&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sarala&display=swap');
 .navbar {
     position: absolute;
     width: 360px;
@@ -33,10 +35,11 @@
 }
 
 .name {
-    font-family: B612 Mono;
+    font-family: 'B612', sans-serif;
     text-align: center;
     color: #FFFFFF;
     margin-top: 90px;
+    font-size: 20px;
 }
 
 .myphoto {
@@ -47,9 +50,20 @@
     background-position: 50%;
     border-radius: 50%;
     background-size: 100% auto;
+    transform: rotate(-3deg);
 }
 
 .paragraph {
     text-align: center;
     margin: 20px 10px 0px 10px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 14px;
+}
+
+.text-bottom_name {
+    text-align: center;
+    font-size: 14px;
+    margin-top: -10px;
+    color: #020202;
+    font-family: 'Sarala', sans-serif;
 }
