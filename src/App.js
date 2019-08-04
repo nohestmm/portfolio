@@ -8,15 +8,14 @@ import '../node_modules/@fortawesome/fontawesome-free/css/all.css'
 class App extends Component {
   render() {
     return (
-      <div>
-        <div className="top-div">
-        </div>
-        <header>
+      <>
+       
+        <header className= "top-div">
           <nav className="navbar">
             <span className="navbar-text"><i className="fas fa-home"></i>
               Home
             </span>
-            <span className="navbar-text"> 
+            <span className="navbar-text">
               <i className="fas fa-tools"></i>
               Skills
               </span>
@@ -26,14 +25,15 @@ class App extends Component {
                 </span>
           </nav>
         </header>
+        <div className="profile-photo"><img className="myphoto" src={photo} alt="" /></div>
         <section className="bottom-div">
           <h1 className="name">NOHEMÍ MARTÍNEZ</h1>
           <h6 className="text-bottom_name">{"<Front-end Developer/>"}</h6>
           <p className="paragraph">La programación siempre ha formado parte de mi formación académica, y Laboratoria me brindó la oportunidad de mejorar mis habilidades y aprender Javascript, lo que me ha permitido trabajar en equipo, empleando metodologias ágiles en un ambiente de incertidumbre.</p>
         </section>
-        <div className="profile-photo"><img className="myphoto" src={photo} alt="" /></div>
-        <footer></footer>
-      </div>
+        <footer>
+        </footer>
+      </>
     );
 
   }
