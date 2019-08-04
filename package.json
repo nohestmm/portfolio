@@ -31,5 +31,8 @@
             "last 1 safari version"
         ]
     },
-    "homepage": "https://nohestmm.github.io/portfolio"
+    "homepage": "https://nohestmm.github.io/portfolio",
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.10.1"
+    }
 }

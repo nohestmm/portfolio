@@ -8,6 +8,8 @@
     top: 0px;
     background: #6F6262;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
 }
 
 .top-div {
@@ -66,4 +68,21 @@
     margin-top: -10px;
     color: #020202;
     font-family: 'Sarala', sans-serif;
+}
+
+.fa-home,
+.fa-tools,
+.fa-briefcase {
+    color: white;
+    font-size: 20px
+}
+
+.navbar-text {
+    color: white;
+    font-family: Sarala, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 5px 0px 5px;
+    font-size: 10px;
 }
