@@ -17,7 +17,7 @@
 
 .bottom-div {
     width: 100%;
-    height: calc(100% - 305px);
+    height: 100%;
     background: #E29B99;
     background-size: 100% 100%;
 }
@@ -51,7 +51,7 @@
     text-align: center;
     font-family: 'Sarala', sans-serif;
     font-size: 14px;
-    margin: 10px 20px 0px;
+    margin: 30px 20px;
 }
 
 .text-bottom_name {
@@ -84,6 +84,16 @@
 }
 
 .footer {
-    height: 48px;
+    height: 60px;
     background: #E29B99;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa-github,
+.fa-facebook,
+.fa-linkedin-in,
+.fa-file-download {
+    color: #574C4C;
+    font-size: 25px;
 }

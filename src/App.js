@@ -9,7 +9,6 @@ class App extends Component {
   render() {
     return (
       <>
-
         <header className="top-div">
           <nav className="navbar">
             <span className="navbar-text"><i className="fas fa-home"></i>
@@ -23,16 +22,20 @@ class App extends Component {
               <i className="fas fa-briefcase"></i>
               Portfolio
                 </span>
-                <span className="navbar-text"><i className="fas fa-bars"></i></span>
+            <span className="navbar-text"><i className="fas fa-bars"></i></span>
           </nav>
         </header>
         <section className="profile-photo"><img className="myphoto" src={photo} alt="" /></section>
         <section className="bottom-div">
           <h1 className="name">NOHEMÍ MARTÍNEZ</h1>
           <h6 className="text-bottom_name">{"<Front-end Developer/>"}</h6>
-          <p className="paragraph">La programación siempre ha formado parte de mi formación académica, y Laboratoria me brindó la oportunidad de mejorar mis habilidades y aprender Javascript, lo que me ha permitido trabajar en equipo, empleando metodologias ágiles en un ambiente de incertidumbre.</p>
+          <p className="paragraph">La programación siempre ha formado
+            parte de mi formación académica, y Laboratoria me brindó la
+            oportunidad de mejorar mis habilidades y aprender Javascript,
+            lo que me ha permitido trabajar en equipo, empleando metodologías
+            ágiles en un ambiente de incertidumbre.</p>
         </section>
-        <footer className= "footer">
+        <footer className="footer">
           <span><i className="fab fa-github"></i></span>
           <span><i className="fab fa-facebook"></i></span>
           <span><i className="fab fa-linkedin-in"></i></span>
