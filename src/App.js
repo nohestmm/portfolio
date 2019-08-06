@@ -10,6 +10,7 @@ class App extends Component {
     return (
       <>
         <header className="top-div">
+          
           <nav className="navbar">
             <span className="navbar-text"><i className="fas fa-home"></i>
               Home
