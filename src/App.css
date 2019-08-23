@@ -7,6 +7,8 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    z-index: 10;
 }
 
 .top-div {
@@ -65,12 +67,12 @@
 .fa-tools,
 .fa-briefcase {
     color: white;
-    font-size: 30px
+    font-size: 30px;
 }
 
 .fa-bars {
     color: #E29B99;
-    font-size: 40px
+    font-size: 40px;
 }
 
 .navbar-text {
@@ -96,4 +98,21 @@
 .fa-file-download {
     color: #574C4C;
     font-size: 25px;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+.content-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-menu {
+    cursor: pointer;
 }

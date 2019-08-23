@@ -1,31 +1,48 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
+import Navbarmain from './components/Navbarmain';
 import photo from './img/photo.jpeg';
 import '../node_modules/@fortawesome/fontawesome-free/js/all'
 import '../node_modules/@fortawesome/fontawesome-free/css/all.css'
 
 
-class App extends Component {
+
+
+
+class App extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      show: false
+    }
+    this.showNavbar = this.showNavbar.bind(this);
+    this.closeNavbar = this.closeNavbar.bind(this);
+  }
+  showNavbar(){
+    this.setState({ show: true })
+    console.log(this.state.show)
+  }
+  closeNavbar() {
+    this.setState({ show: false })
+    console.log(this.state.show)
+  }
   render() {
     return (
       <>
-        <header className="top-div">
-          
-          <nav className="navbar">
-            <span className="navbar-text"><i className="fas fa-home"></i>
-              Home
-            </span>
-            <span className="navbar-text">
-              <i className="fas fa-tools"></i>
-              Skills
-              </span>
-            <span className="navbar-text">
-              <i className="fas fa-briefcase"></i>
-              Portfolio
-                </span>
-            <span className="navbar-text"><i className="fas fa-bars"></i></span>
-          </nav>
-        </header>
+        <header className="top-div"  >
+
+          <div onClick={()=>this.showNavbar(this.state.show)} 
+            className={this.state.show ?"display-none" : null}>
+            <i className="fas fa-bars"></i> 
+            </div>
+
+         <Navbarmain
+            show={this.state.show}
+            hidden={this.closeNavbar}
+          />
+        
+        </header>  
+       
         <section className="profile-photo"><img className="myphoto" src={photo} alt="" /></section>
         <section className="bottom-div">
           <h1 className="name">NOHEMÍ MARTÍNEZ</h1>
