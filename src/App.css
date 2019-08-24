@@ -70,6 +70,12 @@
     font-size: 30px;
 }
 
+.fa-home:hover,
+.fa-tools:hover,
+.fa-briefcase:hover {
+    color: #E29B99;
+}
+
 .fa-bars {
     color: #E29B99;
     font-size: 40px;
@@ -93,11 +99,18 @@
 }
 
 .fa-github,
-.fa-facebook,
+.fa-envelope,
 .fa-linkedin-in,
 .fa-file-download {
     color: #574C4C;
     font-size: 25px;
+}
+
+.fa-github:hover,
+.fa-envelope:hover,
+.fa-linkedin-in:hover,
+.fa-file-download:hover {
+    color: white;
 }
 
 .display-block {
@@ -115,4 +128,11 @@
 
 .icon-menu {
     cursor: pointer;
+}
+
+.content-bars {
+    justify-content: flex-end;
+    display: flex;
+    padding: 5px;
+    position: relative;
 }

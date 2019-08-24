@@ -1,6 +1,4 @@
 import React from 'react';
-
-
 const Navbarmain = ({ show, hidden }) => {
   const navbar = show ? "navbar display-block" : "navbar display-none";
   return (

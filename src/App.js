@@ -4,11 +4,6 @@ import Navbarmain from './components/Navbarmain';
 import photo from './img/photo.jpeg';
 import '../node_modules/@fortawesome/fontawesome-free/js/all'
 import '../node_modules/@fortawesome/fontawesome-free/css/all.css'
-
-
-
-
-
 class App extends React.Component {
   constructor(props) {
     super(props)
@@ -18,7 +13,7 @@ class App extends React.Component {
     this.showNavbar = this.showNavbar.bind(this);
     this.closeNavbar = this.closeNavbar.bind(this);
   }
-  showNavbar(){
+  showNavbar() {
     this.setState({ show: true })
     console.log(this.state.show)
   }
@@ -29,20 +24,16 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <header className="top-div"  >
-
-          <div onClick={()=>this.showNavbar(this.state.show)} 
-            className={this.state.show ?"display-none" : null}>
-            <i className="fas fa-bars"></i> 
-            </div>
-
-         <Navbarmain
+        <header className="top-div">
+          <div onClick={() => this.showNavbar(this.state.show)}
+            className={this.state.show ? "display-none" : "content-bars"}>
+            <i className="fas fa-bars"></i>
+          </div>
+          <Navbarmain
             show={this.state.show}
             hidden={this.closeNavbar}
           />
-        
-        </header>  
-       
+        </header>
         <section className="profile-photo"><img className="myphoto" src={photo} alt="" /></section>
         <section className="bottom-div">
           <h1 className="name">NOHEMÍ MARTÍNEZ</h1>
@@ -55,14 +46,12 @@ class App extends React.Component {
         </section>
         <footer className="footer">
           <span><i className="fab fa-github"></i></span>
-          <span><i className="fab fa-facebook"></i></span>
+          <span><i className="fas fa-envelope"></i></span>
           <span><i className="fab fa-linkedin-in"></i></span>
           <span><i className="fas fa-file-download"></i></span>
         </footer>
       </>
     );
-
   }
 }
-
 export default App;
