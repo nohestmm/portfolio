@@ -16,8 +16,8 @@ class App extends React.Component {
     <Router>
       <Switch>
         <Route path='/' exact component={Home}/>
-        <Route path='/projects' exact component={() => <Projects active={true}/>}/>
-        <Route path='/skills' exact component={()=> <Skills active={true}/>}/>
+        <Route path='/projects' component={() => <Projects active={true}/>}/>
+        <Route path='/skills' component={()=> <Skills active={true}/>}/>
         <Route component= {()=>(
           <h1>Error 404</h1>
           )}/>

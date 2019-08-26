@@ -1,34 +1,34 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 const Navbarmain = ({ show, hidden }) => {
   const navbar = show ? "navbar hidden-bars" : "navbar show-bars";
   return (
     <nav className={navbar}>
       <div className="content-options">
-        <Link to={"/"}>
+        <NavLink to="/">
           <div className="icon-menu">
             <span className="navbar-text">
               <i className="fas fa-home"></i>
               Home
             </span>
           </div>
-        </Link>
-        <Link to={"/skills"}>
+        </NavLink>
+        <NavLink to="/skills">
           <div className="icon-menu">
             <span className="navbar-text">
               <i className="fas fa-tools"></i>
               Skills
               </span>
           </div>
-        </Link>
-        <Link to={"/projects"}>
+        </NavLink>
+        <NavLink to="/projects">
         <div className="icon-menu">
           <span className="navbar-text">
             <i className="fas fa-briefcase"></i>
             Portfolio
                 </span>
                 </div>
-                </Link>
+                </NavLink>
         <div className="icon-menu">
           <span className="navbar-text" onClick={hidden}>
             <i className="fas fa-bars"></i>
