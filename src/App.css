@@ -15,6 +15,8 @@
     width: 100%;
     height: 97px;
     background: #574C4C;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .bottom-div {
@@ -113,12 +115,16 @@
     color: white;
 }
 
-.display-block {
+.hidden-bars {
     display: block;
+    transition: transform 0.4s;
+    transform: translateY(0);
 }
 
-.display-none {
-    display: none;
+.show-bars {
+    display: block;
+    transition: transform 0.4s;
+    transform: translateY(-100%);
 }
 
 .content-options {
@@ -134,5 +140,10 @@
     justify-content: flex-end;
     display: flex;
     padding: 5px;
-    position: relative;
+    max-width: 40px;
+}
+
+.content-bars .fa-bars {
+    color: white;
+    cursor: pointer;
 }

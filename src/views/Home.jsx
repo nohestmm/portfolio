@@ -21,9 +21,9 @@ const Home =()=>{
   </section>
   <footer className="footer">
     <a href="https://github.com/nohestmm?tab=repositories" target="blank"><i className="fab fa-github"></i></a>
-    <a href="https://www.linkedin.com/in/nohestmm/"><i className="fas fa-envelope"></i></a>
-    <a href="https://www.linkedin.com/in/nohestmm/"><i className="fab fa-linkedin-in"></i></a>
-    <span><i className="fas fa-file-download"></i></span>
+    <a href="https://www.linkedin.com/in/nohestmm/" target="blank"><i className="fas fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/nohestmm/" target="blank"><i className="fab fa-linkedin-in"></i></a>
+    <a href="https://www.linkedin.com/in/nohestmm/" target="blank"><i className="fas fa-file-download"></i></a>
   </footer>
  </> 
  )

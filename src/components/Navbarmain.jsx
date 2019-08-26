@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Navbarmain = ({ show, hidden }) => {
-  const navbar = show ? "navbar display-block" : "navbar display-none";
+  const navbar = show ? "navbar hidden-bars" : "navbar show-bars";
   return (
     <nav className={navbar}>
       <div className="content-options">
@@ -17,12 +17,12 @@ const Navbarmain = ({ show, hidden }) => {
           Skills
               </span>
               </div>
-         <a href="../views/Projects.jsx"><div className="icon-menu">
+         <div className="icon-menu">
           <span className="navbar-text">
           <i className="fas fa-briefcase"></i>
           Portfolio
                 </span></div>
-                </a>
+               
         <div className="icon-menu">
           <span className="navbar-text" onClick={hidden}>
             <i className="fas fa-bars"></i>

@@ -19,10 +19,9 @@ constructor(props) {
   }
   render() {
     return (
-    
     <header className="top-div">
     <div onClick={() => this.showNavbar(this.state.show)}
-      className={this.state.show ? "display-none" : "content-bars"}>
+      className={this.state.show ? "content-bars show-bars" : "content-bars hidden-bars"}>
       <i className="fas fa-bars"></i>
     </div>
     <Navbarmain
