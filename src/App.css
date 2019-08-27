@@ -151,3 +151,7 @@
 .color-header {
     background: #E29B99;
 }
+
+.link-text {
+    text-decoration: none;
+}

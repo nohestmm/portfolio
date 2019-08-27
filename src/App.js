@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, HashRouter } from 'react-router-dom';
 import './App.css';
 // import Header from './components/Header'
 // import Navbarmain from './components/Navbarmain';
@@ -13,18 +13,18 @@ const App =()=> {
 
   
     return (
-      
-      <BrowserRouter>
-    
-      <Switch>
+      <HashRouter>
+      <Router>
+  
+      <Switch> 
         <Route exact path={process.env.PUBLIC_URL + '/'} component={()=> <Home active={false}/>}/>
         <Route path='/projects' component={() => <Projects active={true}/>}/>
         <Route path='/skills' component={()=> <Skills active={true}/>}/>
-      </Switch>
-  
-</BrowserRouter>
+       </Switch>
 
- 
+</Router>
+
+</HashRouter>
 )
 }
 export default App;

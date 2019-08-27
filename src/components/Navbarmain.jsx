@@ -6,7 +6,7 @@ const Navbarmain = ({ show, hidden }) => {
   return (
     <nav className={navbar}>
       <div className="content-options">
-        <NavLink exact to={process.env.PUBLIC_URL + "/"} activeClassName= "activo">
+        <NavLink exact to={process.env.PUBLIC_URL + "/"} activeClassName= "activo" className="link-text">
           <div className="icon-menu">
             <span className="navbar-text">
               <i className="fas fa-home"></i>
@@ -14,7 +14,7 @@ const Navbarmain = ({ show, hidden }) => {
             </span>
           </div>
         </NavLink>
-        <NavLink to="/skills"  activeClassName= "activo">
+        <NavLink to="/skills"  activeClassName= "activo" className="link-text">
           <div className="icon-menu">
             <span className="navbar-text">
               <i className="fas fa-tools"></i>
@@ -22,7 +22,7 @@ const Navbarmain = ({ show, hidden }) => {
               </span>
           </div>
         </NavLink>
-        <NavLink to="/projects"  activeClassName= "activo">
+        <NavLink to="/projects"  activeClassName= "activo" className="link-text">
         <div className="icon-menu">
           <span className="navbar-text">
             <i className="fas fa-briefcase"></i>

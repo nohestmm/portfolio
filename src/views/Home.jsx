@@ -12,7 +12,7 @@ const Home =({active})=>{
   <section className="profile-photo"><img className="myphoto" src={photo} alt="" /></section>
   <section className="bottom-div">
     <h1 className="name">NOHEMÍ MARTÍNEZ</h1>
-    <h6 className="text-bottom_name">{"<Front-end Developer/>"}</h6>
+    <h6 className="text-bottom_name">{"<Front-end Developer/>"}<span>&#160;</span></h6>
     <p className="paragraph">La programación siempre ha formado
       parte de mi formación académica, y Laboratoria me brindó la
       oportunidad de mejorar mis habilidades y aprender Javascript,
@@ -23,7 +23,7 @@ const Home =({active})=>{
     <a href="https://github.com/nohestmm?tab=repositories" target="blank"><i className="fab fa-github"></i></a>
     <a href="mailto:nohestmm@gmail.com" target="blank"><i className="fas fa-envelope"></i></a>
     <a href="https://www.linkedin.com/in/nohestmm/" target="blank"><i className="fab fa-linkedin-in"></i></a>
-    <a href="https://www.linkedin.com/in/nohestmm/" target="blank"><i className="fas fa-file-download"></i></a>
+    <a href="../CV/CV_Nohemi.pdf" download="Curriculum Nohemi.pdf" target="blank"><i className="fas fa-file-download"></i></a>
   </footer>
  </> 
  )
