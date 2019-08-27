@@ -8,7 +8,7 @@ const Projects = ({active}) =>{
     return( 
         <>
 
-      <Header main={active}/>
+        <Header main={active}/>
       <h1>Projects</h1>
 </>
   

@@ -3,12 +3,12 @@ import Header from '../components/Header'
 import photo from '../img/photo.jpeg';
 
 
-const Home =()=>{
+const Home =({active})=>{
   
    
     return( 
     <>
-   <Header/>
+   <Header main ={active} />
   <section className="profile-photo"><img className="myphoto" src={photo} alt="" /></section>
   <section className="bottom-div">
     <h1 className="name">NOHEMÍ MARTÍNEZ</h1>

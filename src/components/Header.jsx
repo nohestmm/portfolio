@@ -1,11 +1,13 @@
 import React from 'react';
-import Navbarmain from './Navbarmain'
+import Navbarmain from './Navbarmain';
+
 class Header extends React.Component{
 constructor(props) {
     super(props)
     this.state = {
       show: false
     }
+  
     this.showNavbar = this.showNavbar.bind(this);
     this.closeNavbar = this.closeNavbar.bind(this);
   }

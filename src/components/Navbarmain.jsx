@@ -1,11 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+export let main = false;
 const Navbarmain = ({ show, hidden }) => {
   const navbar = show ? "navbar hidden-bars" : "navbar show-bars";
   return (
     <nav className={navbar}>
       <div className="content-options">
-        <NavLink to="/">
+        <NavLink exact to={process.env.PUBLIC_URL + "/"} activeClassName= "activo">
           <div className="icon-menu">
             <span className="navbar-text">
               <i className="fas fa-home"></i>
@@ -13,7 +14,7 @@ const Navbarmain = ({ show, hidden }) => {
             </span>
           </div>
         </NavLink>
-        <NavLink to="/skills">
+        <NavLink to="/skills"  activeClassName= "activo">
           <div className="icon-menu">
             <span className="navbar-text">
               <i className="fas fa-tools"></i>
@@ -21,7 +22,7 @@ const Navbarmain = ({ show, hidden }) => {
               </span>
           </div>
         </NavLink>
-        <NavLink to="/projects">
+        <NavLink to="/projects"  activeClassName= "activo">
         <div className="icon-menu">
           <span className="navbar-text">
             <i className="fas fa-briefcase"></i>
