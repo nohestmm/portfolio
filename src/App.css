@@ -155,3 +155,21 @@
 .link-text {
     text-decoration: none;
 }
+
+.title-otherviews {
+    font-family: 'B612', sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-top: -35px;
+}
+
+.content-project {
+    display: flex;
+}
+
+.content-skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
