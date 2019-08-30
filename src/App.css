@@ -164,12 +164,34 @@
     margin-top: -35px;
 }
 
+.footer-ancle {
+    height: 25px;
+}
+
 .content-project {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-projects {
+    width: 250px;
+    height: 150px;
 }
 
 .content-skills {
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
+}
+
+.content-details {
+    width: 270px;
+    height: 170px;
+    background: rgba(87, 76, 76, 0.6);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
