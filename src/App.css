@@ -183,6 +183,42 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+}
+
+.content-firsticonskills {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.content-secondiconskills {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+    margin-top: 10px;
+    margin-top: 50px;
+}
+
+.fa-js-square,
+.fa-html5,
+.fa-css3-alt,
+.fa-node,
+.fa-git,
+.fa-git-alt,
+.fa-npm,
+.fa-react {
+    font-size: 50px;
+    color: #574C4C
+}
+
+.icon-firebase {
+    width: 40px;
+    height: 40px;
 }
 
 .content-details {

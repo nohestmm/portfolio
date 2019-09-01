@@ -15,7 +15,7 @@ const Projects = ({ active }) => {
       <Header main={active} />
       <h1 className="title-otherviews">Projects</h1>
       <section className="content-project">
-        <div className="content-details"><img className="img-projects" src={pokedata} alt="pokedata" /></div>
+        <div className="content-details" onClick= {() => this.showpreview(this.state.show)}><img className="img-projects" src={pokedata} alt="pokedata" /></div>
         <div className="content-details"><img className="img-projects" src={moviesproject} alt="movies" /></div>
         <div className="content-details"><img className="img-projects" src={mdlinks} alt="mdlinks" /></div>
         <div className="content-details"><img className="img-projects" src={pinterest} alt="pinterest" /></div>
