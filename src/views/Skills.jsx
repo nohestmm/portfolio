@@ -1,5 +1,6 @@
 import React from 'react';
-import Header from '../components/Header'
+import Header from '../components/Header';
+import Iconfirebase from '../img/Iconfirebase.svg'
 
 
 const Skills = ({ active }) => {
@@ -11,17 +12,40 @@ const Skills = ({ active }) => {
       <Header main={active} />
       <h1 className="title-otherviews">Skills</h1>
       <section className="content-skills">
-        <div className="content-firsticonskills">
-          <div><i className="fab fa-js-square"></i></div>
-          <div><i className="fab fa-html5"></i></div>
-          <div><i className="fab fa-css3-alt"></i></div>
-          <div><i className="fab fa-node"></i></div>
+        <div className="content-iconskills">
+          <div className="content-icondetails">
+            <i className="fab fa-js-square"></i>
+            <p>Javascript</p>
+          </div>
+          <div className="content-icondetails">
+            <i className="fab fa-html5"></i>
+            <p>Html5</p>
+          </div>
+          <div className="content-icondetails">
+            <i className="fab fa-css3-alt"></i>
+            <p>CSS3</p></div>
+          <div className="content-icondetails">
+            <i className="fab fa-node"></i>
+            <p>Node.js</p>
+          </div>
         </div>
-        <div className="content-secondiconskills">
-        <div><i className="fab fa-git"></i></div>
-        <div><i className="fab fa-npm"></i></div>
-        <div><i className="fab fa-react"></i></div>
-        <div><img className="icon-firebase" src="https://img.icons8.com/color/96/000000/firebase.png" alt="icon-firebase" /></div>
+        <div className="content-iconskills">
+          <div className="content-icondetails">
+            <i className="fab fa-git"></i>
+            <p>Github</p>
+          </div>
+          <div className="content-icondetails">
+            <i className="fab fa-npm"></i>
+            <p>NPM</p>
+          </div>
+          <div className="content-icondetails">
+            <i className="fab fa-react"></i>
+            <p>React</p>
+          </div>
+          <div className="content-icondetails">
+            <img className="icon-firebase" src={Iconfirebase} alt="icon-firebase" />
+            <p>Firebase</p>
+          </div>
         </div>
       </section>
     </>

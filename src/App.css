@@ -187,21 +187,28 @@
     justify-content: center;
 }
 
-.content-firsticonskills {
+.content-iconskills {
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 80%;
     align-items: center;
     margin-top: 10px;
+    margin-bottom: 40px;
 }
 
-.content-secondiconskills {
+.content-icondetails {
     display: flex;
-    justify-content: space-between;
-    width: 70%;
+    flex-direction: column;
     align-items: center;
-    margin-top: 10px;
-    margin-top: 50px;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+}
+
+.content-icondetails p {
+    font-family: 'Sarala', sans-serif;
+    color: #020202;
+    font-size: 14px;
 }
 
 .fa-js-square,
@@ -213,12 +220,12 @@
 .fa-npm,
 .fa-react {
     font-size: 50px;
-    color: #574C4C
+    color: #574C4C;
 }
 
 .icon-firebase {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 
 .content-details {
