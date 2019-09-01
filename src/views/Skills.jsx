@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
-import Iconfirebase from '../img/Iconfirebase.svg'
+import Iconfirebase from '../img/Iconfirebase.svg';
 
 
 const Skills = ({ active }) => {
@@ -13,11 +13,11 @@ const Skills = ({ active }) => {
       <h1 className="title-otherviews">Skills</h1>
       <section className="content-skills">
         <div className="content-iconskills">
-          <div className="content-icondetails">
+          <div className="content-icondetails" data-aos="flip-up">
             <i className="fab fa-js-square"></i>
             <p>Javascript</p>
           </div>
-          <div className="content-icondetails">
+          <div className="content-icondetails" data-aos="flip-up">
             <i className="fab fa-html5"></i>
             <p>Html5</p>
           </div>
