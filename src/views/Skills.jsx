@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../components/Header';
 import Iconfirebase from '../img/Iconfirebase.svg';
 
 
@@ -7,7 +6,6 @@ const Skills = () => {
 
   return (
     <>
-     <Header/>
       <h1 className="title-otherviews">Skills</h1>
       <section className="content-skills">
         <div className="content-iconskills">

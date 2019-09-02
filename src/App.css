@@ -110,11 +110,10 @@
     top: 100px;
     background: #6F6262;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: flex;
     position: fixed;
     z-index: 10;
     justify-content: center;
-    flex-direction: column;
+    display: flex;
 }
 
 .hidden-bars {
@@ -126,12 +125,11 @@
 .show-bars {
     display: block;
     transition: transform 0.4s;
-    transform: translateX(-100%);
+    transform: translateX(100%);
 }
 
 .content-options {
-    display: flex;
-    justify-content: center;
+    margin: 20px 10px;
 }
 
 .icon-menu {

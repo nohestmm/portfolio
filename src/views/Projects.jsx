@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../components/Header'
 import mdlinks from '../img/mdlinks.jpg'
 import pokedata from '../img/pokedata.jpg'
 import moviesproject from '../img/moviesproject.jpg'
@@ -7,8 +6,7 @@ import pinterest from '../img/pinterest.jpg'
 const Projects = () => {
   return (
     <>
-      <Header />
-      <h1 className="title-otherviews">Projects</h1>
+          <h1 className="title-otherviews">Projects</h1>
       <section className="content-project">
         <div className="content-rawprojects">
           <div className="content-iconprojects">

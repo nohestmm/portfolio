@@ -27,7 +27,7 @@ class Header extends React.Component {
   }
 
   showtimes() {
-    this.setState({ show: false})
+    this.setState({ show: false })
     this.setState({ hidden: true })
 
   }
@@ -45,17 +45,17 @@ class Header extends React.Component {
           this.closebar(this.state.show, this.state.hidden)}
           className={this.state.show ? "content-bars hidden-times" : "content-bars show-times"}>
           <i className="fas fa-bars"></i>
-          </div> 
-        <div 
-        onClick={() => this.state.hidden ?
-          this.showtimes(this.state.show, this.state.hidden) :
-          this.closetimes(this.state.show, this.state.hidden)}
-        className={this.state.hidden ? "content-bars hidden-times" : "content-bars show-times"}>
+        </div>
+        <div
+          onClick={() => this.state.hidden ?
+            this.showtimes(this.state.show, this.state.hidden) :
+            this.closetimes(this.state.show, this.state.hidden)}
+          className={this.state.hidden ? "content-bars hidden-times" : "content-bars show-times"}>
           <i class="fas fa-times"></i>
-          </div>
+        </div>
         <Navbarmain
           show={this.state.show}
-
+          hidden={this.closeNavbar}
         />
       </header>
     )

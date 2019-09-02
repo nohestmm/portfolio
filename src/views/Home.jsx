@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../components/Header'
 import photo from '../img/photo.jpeg';
 
 
@@ -8,7 +7,7 @@ const Home =()=>{
    
     return( 
     <>
-   <Header/>
+
   <section className="profile-photo">
     <img className="myphoto" src={photo} alt="" />
     </section>
