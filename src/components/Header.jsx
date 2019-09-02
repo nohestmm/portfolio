@@ -9,11 +9,11 @@ class Header extends React.Component {
       hidden: true
     }
 
-    this.showNavbar = this.showbar.bind(this);
-    this.closeNavbar = this.closebar.bind(this);
+    this.showbar = this.showbar.bind(this);
+    this.closebar = this.closebar.bind(this);
 
-    this.showtimes = this.showbar.bind(this);
-    this.closetimes = this.closebar.bind(this);
+    this.showtimes = this.showtimes.bind(this);
+    this.closetimes = this.closetimes.bind(this);
   }
   showbar() {
     this.setState({ show: true })
@@ -51,11 +51,11 @@ class Header extends React.Component {
             this.showtimes(this.state.show, this.state.hidden) :
             this.closetimes(this.state.show, this.state.hidden)}
           className={this.state.hidden ? "content-bars hidden-times" : "content-bars show-times"}>
-          <i class="fas fa-times"></i>
+          <i className="fas fa-times"></i>
         </div>
         <Navbarmain
           show={this.state.show}
-          hidden={this.closeNavbar}
+          hidden={this.closebar}
         />
       </header>
     )
