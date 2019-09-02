@@ -44,6 +44,12 @@ hiddenpreview(){
             <span className="rombo-icon"  onClick={() => this.showpreview(pokedata)}>
               <i className="fas fa-search"></i>
               </span>
+              <a className="rombo-icon" 
+             href="https://github.com/nohestmm/SCL009-data-lovers" 
+             target="blank"
+             title="Aplicación que permite conocer la primera generación de pokemones">
+            <i className="fab fa-github rotate-icon"></i>
+            </a>
             </div>
           </div>
           <div className="content-iconprojects">
@@ -52,7 +58,7 @@ hiddenpreview(){
             </div>
             <div className="icons-bottomproject">
             <a className="rombo-icon" 
-            href="https://nohestmm.github.io/SCL009-hackathon-peliculas/src/index.html" 
+            href="https://github.com/nohestmm/SCL009-hackathon-peliculas" 
             target="blank"
             title="Aplicación que permite conocer sagas de películas">
             <i className="fas fa-link"></i>
@@ -60,6 +66,12 @@ hiddenpreview(){
             <span className="rombo-icon" onClick={() => this.showpreview(moviesproject)}>
               <i className="fas fa-search"></i>
               </span>
+              <a className="rombo-icon" 
+             href="https://nohestmm.github.io/SCL009-hackathon-peliculas/" 
+             target="blank"
+             title="Aplicación que permite conocer la primera generación de pokemones">
+            <i className="fab fa-github rotate-icon"></i>
+            </a>
             </div>
           </div>
         </div>
@@ -78,6 +90,12 @@ hiddenpreview(){
               <span className="rombo-icon" onClick={() => this.showpreview(mdlinks)}>
                 <i className="fas fa-search"></i>
                 </span>
+                <a className="rombo-icon" 
+            href="https://github.com/nohestmm/SCL009-md-links" 
+            target="blank"
+            title="Aplicación que permite conocer sagas de películas">
+            <i className="fab fa-github rotate-icon"></i>
+            </a>
             </div>
           </div>
           <div className="content-iconprojects">
@@ -93,7 +111,14 @@ hiddenpreview(){
               </a>
             <span className="rombo-icon" onClick={() => this.showpreview(pinterest)}>
               <i className="fas fa-search">
-                </i></span>
+                </i>
+                </span>
+                <a className="rombo-icon" 
+            href="https://github.com/nohestmm/SCL-009-Pinterest" 
+            target="blank"
+            title="Aplicación que permite conocer sagas de películas">
+            <i className="fab fa-github rotate-icon"></i>
+            </a>
             </div>
           </div>
         </div>
