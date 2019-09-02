@@ -3,13 +3,15 @@ import Header from '../components/Header'
 import photo from '../img/photo.jpeg';
 
 
-const Home =({active})=>{
+const Home =()=>{
   
    
     return( 
     <>
-   <Header main ={active} />
-  <section className="profile-photo"><img className="myphoto" src={photo} alt="" /></section>
+   <Header/>
+  <section className="profile-photo">
+    <img className="myphoto" src={photo} alt="" />
+    </section>
   <section className="bottom-div">
     <h1 className="name">NOHEMÍ MARTÍNEZ</h1>
     <h6 className="text-bottom_name">{"<Front-end Developer/>"}<span>&#160;</span></h6>

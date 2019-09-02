@@ -1,12 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 export let main = false;
-const Navbarmain = ({ show, hidden }) => {
+const Navbarmain = ({show}) => {
   const navbar = show ? "navbar hidden-bars" : "navbar show-bars";
   return (
     <nav className={navbar}>
       <div className="content-options">
-        <NavLink exact to={process.env.PUBLIC_URL + "/"} activeClassName= "activo" className="link-text">
+        <NavLink exact to= "/"activeClassName= "activo" className="link-text">
           <div className="icon-menu">
             <span className="navbar-text">
               <i className="fas fa-home"></i>
@@ -30,12 +30,7 @@ const Navbarmain = ({ show, hidden }) => {
                 </span>
                 </div>
                 </NavLink>
-        <div className="icon-menu">
-          <span className="navbar-text" onClick={hidden}>
-            <i className="fas fa-bars"></i>
-          </span>
-        </div>
-      </div>
+            </div>
     </nav>
   )
 }

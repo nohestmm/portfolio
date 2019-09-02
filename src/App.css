@@ -1,19 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=B612&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Sarala&display=swap');
-.navbar {
+.content-top {
     width: 100%;
-    height: 50px;
-    background: #6F6262;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    z-index: 10;
-}
-
-.top-div {
-    width: 100%;
-    height: 97px;
+    height: 60px;
     background: #574C4C;
     display: flex;
     justify-content: flex-end;
@@ -30,8 +19,9 @@
     background: linear-gradient(to bottom, #574C4C 50%, #E29B99 50%, #E29B99 100%);
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 160px;
+    height: 260px;
 }
 
 .name {
@@ -78,7 +68,8 @@
     color: #E29B99;
 }
 
-.fa-bars {
+.fa-bars,
+.fa-times {
     color: #E29B99;
     font-size: 40px;
 }
@@ -115,21 +106,32 @@
     color: white;
 }
 
+.navbar {
+    top: 100px;
+    background: #6F6262;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .hidden-bars {
     display: block;
     transition: transform 0.4s;
-    transform: translateY(0);
+    transform: translateX(0);
 }
 
 .show-bars {
     display: block;
     transition: transform 0.4s;
-    transform: translateY(-100%);
+    transform: translateX(-100%);
 }
 
 .content-options {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .icon-menu {
@@ -143,7 +145,9 @@
     max-width: 40px;
 }
 
-.content-bars .fa-bars {
+.content-bars,
+.fa-bars,
+.fa-times {
     color: white;
     cursor: pointer;
 }
@@ -179,21 +183,25 @@
 .content-rawprojects {
     display: flex;
     width: 90%;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .content-iconprojects {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 45px;
+    margin-bottom: 22px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .content-projectsdetails {
-    width: 270px;
-    height: 170px;
+    width: 297px;
+    height: 197px;
     background: rgba(87, 76, 76, 0.6);
     align-items: center;
     justify-content: center;
@@ -293,4 +301,12 @@
 .icon-firebase {
     width: 50px;
     height: 50px;
+}
+
+.show-times {
+    display: block;
+}
+
+.hidden-times {
+    display: none;
 }

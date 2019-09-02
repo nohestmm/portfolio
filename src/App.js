@@ -15,9 +15,9 @@ const App =(props)=> {
       <Router>
   
       <Switch> 
-        <Route exact path="/" component={()=> <Home active={false}/>}/>
-        <Route exact path="/projects" component={() => <Projects active={true}/>}/>
-        <Route exact path="/skills" component={()=> <Skills active={true}/>}/>
+        <Route exact path="/" component= {Home}/>
+        <Route exact path="/projects" component={Projects}/>
+        <Route exact path="/skills" component={Skills}/>
        </Switch>
 
 </Router>

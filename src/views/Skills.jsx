@@ -3,13 +3,11 @@ import Header from '../components/Header';
 import Iconfirebase from '../img/Iconfirebase.svg';
 
 
-const Skills = ({ active }) => {
+const Skills = () => {
 
   return (
     <>
-
-
-      <Header main={active} />
+     <Header/>
       <h1 className="title-otherviews">Skills</h1>
       <section className="content-skills">
         <div className="content-iconskills">
