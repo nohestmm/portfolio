@@ -141,13 +141,14 @@
     display: flex;
     padding: 5px;
     max-width: 40px;
+    height: 40px;
 }
 
-.content-bars,
 .fa-bars,
 .fa-times {
     color: white;
     cursor: pointer;
+    font-size: 40px;
 }
 
 .color-header {
@@ -318,6 +319,10 @@
     background: #00000073;
 }
 
+.fas fa-times {
+    font-size: 18px;
+}
+
 .preview-main {
     display: flex;
     position: fixed;
@@ -341,6 +346,11 @@
 .button-closemodal {
     width: 40px;
     height: 40px;
+    font-size: 18px;
+}
+
+.button-closemodal fa fa-times {
+    font-size: 29px;
 }
 
 .btn-close {
