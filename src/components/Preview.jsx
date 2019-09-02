@@ -7,7 +7,7 @@ const Preview = ({ show, imageProject, hidden }) => {
             <section className="preview-main">
                 <div className="button-closemodal">
                     <button className="btn-close " onClick={hidden}>
-                        <i className="fas fa-times"></i>
+                        <i className="fas fa-times font-sizetimes"></i>
                     </button>
                 </div>
                 <div className="content-img">

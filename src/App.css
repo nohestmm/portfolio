@@ -319,10 +319,6 @@
     background: #00000073;
 }
 
-.fas fa-times {
-    font-size: 18px;
-}
-
 .preview-main {
     display: flex;
     position: fixed;
@@ -349,15 +345,15 @@
     font-size: 18px;
 }
 
-.button-closemodal fa fa-times {
-    font-size: 29px;
-}
-
 .btn-close {
     background: transparent;
     border: none;
     cursor: pointer;
     font-size: 25px;
+}
+
+.font-sizetimes {
+    font-size: 28px;
 }
 
 .img-preview {
