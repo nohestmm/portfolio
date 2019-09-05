@@ -12,8 +12,6 @@ p {
     }
 } */
 
-body,
-html {
-    height: 100%;
+body {
     background: #E29B99;
 }

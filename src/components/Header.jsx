@@ -30,11 +30,14 @@ class Header extends React.Component {
   render() {
     return (
       <header className="content-top">
+        <div className="content-header"> <h1 className="title-otherviews">Nohemí Martínez</h1>
         <div onClick={() => this.state.hidden ?
           this.showbar(this.state.show, this.state.hidden) :
           this.closebar(this.state.show, this.state.hidden)}
           className={this.state.show ? "content-bars hidden-times" : "content-bars show-times"}>
+         
           <i className="fas fa-bars"></i>
+        </div>
         </div>
         <div
           onClick={() => this.state.hidden ?

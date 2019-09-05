@@ -27,7 +27,7 @@ hiddenpreview(){
   render(){
   return (
     <>
-      <h1 className="title-otherviews">Projects</h1>
+      
       <section className="content-project">
         <div className="content-rawprojects">
           <div className="content-iconprojects">

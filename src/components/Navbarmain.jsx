@@ -1,11 +1,20 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-export let main = false;
+import siglas from '../img/siglas.png';
+export let active;
 const Navbarmain = ({show, hidden}) => {
+ 
   const navbar = show ? "navbar hidden-bars" : "navbar show-bars";
   return (
     <nav className={navbar}>
       <div className="content-options" onClick={hidden}>
+      <NavLink exact to= "/"activeClassName= "activo" className="link-text">
+          <div className="icon-menu">
+          <span className="navbar-text">
+              <img src={siglas} alt="profile" className="photo-navbar"/>
+              </span>
+          </div>
+        </NavLink>
         <NavLink exact to= "/"activeClassName= "activo" className="link-text">
           <div className="icon-menu">
             <span className="navbar-text">

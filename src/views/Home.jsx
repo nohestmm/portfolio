@@ -13,7 +13,7 @@ const Home =()=>{
     </section>
   <section className="bottom-div">
     <h1 className="name">NOHEMÍ MARTÍNEZ</h1>
-    <h6 className="text-bottom_name">{"<Front-end Developer/>"}<span>&#160;</span></h6>
+    <h6 className="text-bottom_name">{"<Front-end Developer/>"}</h6>
     <p className="paragraph">La programación siempre ha formado
       parte de mi formación académica, y Laboratoria me brindó la
       oportunidad de mejorar mis habilidades y aprender Javascript,
