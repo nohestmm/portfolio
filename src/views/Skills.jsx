@@ -1,13 +1,14 @@
 import React from 'react';
 import Iconfirebase from '../img/Iconfirebase.svg';
-
+import Header from '../components/Header';
 
 const Skills = () => {
 
   return (
     <>
-      <h1 className="title-otherviews">Skills</h1>
+    <Header active = { true } />
       <section className="content-skills">
+        <h1 className="title-SkillProjects">Skills</h1>
         <div className="content-iconskills">
           <div className="content-icondetails" data-aos="flip-up">
             <i className="fab fa-js-square"></i>
