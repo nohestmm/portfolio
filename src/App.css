@@ -409,3 +409,46 @@
 .hidden-name {
     display: none;
 }
+@media screen and (min-width: 45em) {
+    body {
+        background: white;
+    }
+    .profile-photo {
+        position: fixed;
+        display: flex;
+        width: 20%;
+        top:0;
+        height: 100vh;
+        background: linear-gradient(to bottom, #574C4C 20%, #E29B99 20%, #E29B99 100%);
+    }
+
+.myphoto {
+    display: flex;
+    position: fixed;
+    top: 47px;
+}
+.content-top{
+    display: none;
+}
+
+.bottom-div{
+    display:flex;
+   
+}
+.name{
+    font-size: 12px;
+    color: black;
+ 
+}
+.text-bottom_name{
+   
+}
+.paragraph{
+   
+    margin:0px;
+}
+.footer{
+    top: 651px;
+    position: relative;
+}
+}
