@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Asidemenu = () => {
     return (
         <section className="aside-profile">
-            <img className="aside-myphoto" src={photo} alt="" />
+            <div className="content-imgprofile"><img className="aside-myphoto" src={photo} alt="" /></div>
             <div className="content-options">
                 <NavLink exact to="/" activeClassName="activo" className="link-text">
                     <div className="icon-menu">
