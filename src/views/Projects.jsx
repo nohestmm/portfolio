@@ -2,6 +2,7 @@ import React from 'react';
 import Preview from '../components/Preview'
 import Header from '../components/Header'
 import data from '../Data/data'
+import Asidemenu from '../components/Asidemenu';
 
 
 
@@ -29,6 +30,7 @@ class Projects extends React.Component {
     return (
       <>
         <Header active={true} />
+        <Asidemenu />
         <section className="content-project">
           <h1 className="title-SkillProjects">Portfolio</h1>
           <div className="content-rawprojects">

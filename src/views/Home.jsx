@@ -2,11 +2,13 @@ import React from 'react';
 import Footer from '../components/Footer'
 import photo from '../img/photo.jpeg';
 import Header from '../components/Header';
+import Asidemenu from '../components/Asidemenu';
 
 const Home = () => {
   return (
     <>
     <Header active = { false } />
+    <Asidemenu />
       <section className="profile-photo">
         <img className="myphoto" src={photo} alt="" />
       </section>
