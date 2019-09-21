@@ -494,4 +494,22 @@ width: 150px;
     width: 80%;
     justify-content: center;
 }
+.text-bottom_name{
+    position: relative; 
+	float: left;
+}
+.text-bottom_name span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: white;
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(60) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
 }
