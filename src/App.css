@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=B612&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Sarala&display=swap');
+#root{
+    height: 100vh;
+    width: 100vw;
+}
 .content-top {
     align-items: center;
     width: 100%;
@@ -93,7 +97,7 @@
 
 .footer {
     position: relative;
-    top: 554px;
+    top: 90%;
     display: flex;
     justify-content: space-around;
 }
@@ -486,7 +490,8 @@ width: 150px;
     width: 100%;
 }
 .footer{
-   
+    position: relative;
+    top: 90%;
    
 }
 .content-imgprofile{
