@@ -7,8 +7,6 @@ import Skills from './views/Skills'
 import '../node_modules/@fortawesome/fontawesome-free/js/all';
 import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 
-
-
 const App =(props)=> {
     console.log('initial history is: ', JSON.stringify(window.history))
       return (
@@ -18,7 +16,7 @@ const App =(props)=> {
         <Route exact path="/projects" component={Projects}/>
         <Route exact path="/skills" component={Skills}/>
        </Switch>
-
+       
 </Router>
 
 )
