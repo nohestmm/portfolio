@@ -3,7 +3,7 @@ import Preview from '../components/Preview'
 import Header from '../components/Header'
 import data from '../Data/data'
 import Asidemenu from '../components/Asidemenu';
-
+import Footer from '../components/Footer'
 
 
 class Projects extends React.Component {
@@ -66,7 +66,7 @@ class Projects extends React.Component {
             imageProject={this.state.imagePreview}
             hidden={this.hiddenpreview} />
         </section>
-
+        <Footer/>
       </>
     )
   }
