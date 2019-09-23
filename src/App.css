@@ -7,7 +7,7 @@
 .content-top {
     align-items: center;
     width: 100%;
-    height: 60px;
+    height: 9%;
     background: #574C4C;
     display: flex;
     justify-content: flex-end;
@@ -18,14 +18,15 @@
 }
 
 .bottom-div {
+   
     top: 300px;
-    position: absolute;
+    position: relative;
     width: 100%;
     background-size: 100% 100%;
 }
 
 .profile-photo {
-    top: 60px;
+    top: 50px;
     position: absolute;
     background: linear-gradient(to bottom, #574C4C 50%, #E29B99 50%, #E29B99 100%);
     display: flex;
@@ -96,8 +97,9 @@
 }
 
 .footer {
+  
     position: relative;
-    top: 90%;
+    top: 58%;
     display: flex;
     justify-content: space-around;
 }
@@ -459,27 +461,29 @@ width: 150px;
 }
 
 .bottom-div{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 75%;
-    right: 5%;
+    left: 22%;
     top: 0%;
     justify-content: center;
     min-height: calc(100vh - 15%);
    
 }
-.name{
-    font-size: 12px;
+.name span{
+    font-size: 42px;
     color: black;
  
 }
 .text-bottom_name{
+    font-size: 24px;
    
 }
 .paragraph{
-   
+   text-align: left;
     margin:0px;
+    font-size: 24px;
 }
 .content-options{
     margin:0;
@@ -491,7 +495,7 @@ width: 150px;
 }
 .footer{
     position: relative;
-    top: 90%;
+    top: 8%;
    
 }
 .content-imgprofile{
