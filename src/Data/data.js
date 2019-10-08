@@ -1,9 +1,9 @@
 const data = [
     {
         "title": "Trivia",
-        "image": "https://github.com/nohestmm/portfolio/blob/master/src/img/pokedata.jpg?raw=true",
+        "image": "https://raw.githubusercontent.com/nohestmm/portfolio/master/src/img/trivia.jpg",
         "url": "https://trivia-cultural.firebaseapp.com/",
-        "description":"Trivia de preguntas y respuestas acerca de cultura de paises latinos",
+        "description":"Trivia de preguntas y respuestas acerca de cultura de paises latinos desarrolla en vanilla Javascript",
         "github": "https://github.com/nohestmm/trivia"
     },
     {
@@ -33,6 +33,13 @@ const data = [
         "url": "https://nohestmm.github.io/SCL-009-Pinterest/",
         "description": "Aplicación que simula la replica del tablero de Pinterest",
         "github": "https://github.com/nohestmm/SCL-009-Pinterest"
+    },
+    {
+        "title": "Hackthon Uber",
+        "image": "https://github.com/nohestmm/portfolio/blob/master/src/img/pinterest.jpg?raw=true",
+        "url": "https://hackathon-uber-3d509.firebaseapp.com/",
+        "description": "Propuesta para la empresa Uber que incorpora la gamificacion como modelo de incentivo para los socios conductores",
+        "github": "https://github.com/nohestmm/Hackathon-uber"
     }
 ]
 
