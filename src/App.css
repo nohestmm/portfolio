@@ -427,7 +427,11 @@ display: none;
 }
 @media screen and (min-width: 45em) {
     body {
-        background: white;
+        background: url("./img/background.jpg")no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;;
     }
     .profile-photo {
         display:none;
@@ -462,6 +466,8 @@ width: 150px;
 }
 
 .bottom-div{
+    
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -500,7 +506,7 @@ width: 150px;
 }
 .footer{
     position: relative;
-    top: 8%;
+    top:-6%;
    
 }
 .content-imgprofile{
@@ -516,7 +522,7 @@ width: 150px;
     position:absolute;
     right:0;
     width:0;
-    background: white;
+    background: #e1e4e9;
     border-left: 1px solid #000;
     animation: escribir 5s steps(60) infinite alternate;
 }
@@ -531,7 +537,7 @@ width: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 9px;
+    font-size: 12px;
 }
 .content-skills {
     position: fixed;
@@ -550,7 +556,7 @@ width: 150px;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    top: 9%;
+    top: 12%;
     width: 80%;
     left: 20%;
     min-height: calc(100vh - 15%);
