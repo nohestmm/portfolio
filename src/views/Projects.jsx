@@ -38,7 +38,7 @@ class Projects extends React.Component {
               data.map((el, index) =>
                 <div className="content-iconprojects" key={index}>
                   <div className="content-projectsdetails">
-                    <img className="img-projects" src={el.image} alt={el.title} />
+                    <img className="img-projects" src={el.image} alt={el.title} onClick={() => this.showpreview(el.image)} />
                   </div>
                   <div className="icons-bottomproject">
                     <a className="rombo-icon"

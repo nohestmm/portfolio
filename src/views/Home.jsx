@@ -13,7 +13,7 @@ const Home = () => {
         <img className="myphoto" src={photo} alt="" />
       </section>
       <section className="bottom-div">
-        <h1 className="name"><span>NOHEMÍ </span><span>MARTÍNEZ</span></h1>
+        <h1 className="name"><span className="first-name">NOHEMÍ </span><span>MARTÍNEZ</span></h1>
         <h6 className="text-bottom_name">{"<Front-end Developer/>"}<span >&#160;</span></h6>
         <p className="paragraph">La programación siempre ha formado
           parte de mi formación académica, y Laboratoria me brindó la

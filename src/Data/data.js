@@ -36,7 +36,7 @@ const data = [
     },
     {
         "title": "Hackthon Uber",
-        "image": "https://github.com/nohestmm/portfolio/blob/master/src/img/pinterest.jpg?raw=true",
+        "image": "https://raw.githubusercontent.com/nohestmm/portfolio/master/src/img/wheel-hackathon.jpg",
         "url": "https://hackathon-uber-3d509.firebaseapp.com/",
         "description": "Propuesta para la empresa Uber que incorpora la gamificacion como modelo de incentivo para los socios conductores",
         "github": "https://github.com/nohestmm/Hackathon-uber"
