@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=B612&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Sarala&display=swap');
-#root{
+
+#root {
     height: 100vh;
     width: 100vw;
-    
+
 }
+
 .content-top {
     align-items: center;
     width: 100%;
@@ -19,7 +21,7 @@
 }
 
 .bottom-div {
-   
+
     top: 300px;
     position: relative;
     width: 100%;
@@ -68,6 +70,26 @@
     font-family: 'Sarala', sans-serif;
 }
 
+.text-bottom_name span {
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: #E29B99;
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(60) infinite alternate;
+}
+
+@keyframes escribir {
+    from {
+        width: 30%
+    }
+
+    to {
+        width: 70%
+    }
+}
+
+
 .fa-home,
 .fa-tools,
 .fa-briefcase {
@@ -98,7 +120,7 @@
 }
 
 .footer {
-  
+
     position: relative;
     top: 58%;
     display: flex;
@@ -422,183 +444,210 @@
 }
 
 .aside-myphoto {
-display: none;
+    display: none;
 
 }
+
 @media screen and (min-width: 45em) {
     body {
         background: url("./img/background.jpg")no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;;
+        background-size: cover;
+        ;
     }
+
     .profile-photo {
-        display:none;
+        display: none;
     }
 
-.myphoto {
-    display: none;
-   
-}
-.aside-profile {
-    position: fixed;
-    justify-content: center;
-    display: flex;
-    width: 20%;
-    top:0;
-    height: 100vh;
-    background: linear-gradient(to bottom, #574C4C 20%, #E29B99 20%, #E29B99 100%);
-}
+    .myphoto {
+        display: none;
 
-.aside-myphoto {
-display: flex;
-position: fixed;
-width: 150px;
-    height: 150px;
-    border: 5px solid rgba(255, 255, 255, 0.5);
-    background-size: 100% auto;
-    top:10%;
-    border-radius: 50%;
-}
-.content-top{
-    display: none;
-}
-
-.bottom-div{
-    
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 75%;
-    left: 22%;
-    top: 0%;
-    justify-content: center;
-    min-height: calc(100vh - 15%);
-   
-}
-.name span{
-    font-display: 'Sarala', sans-serif;
-    font-size: 42px;
-    color: black;
- 
-}
-.text-bottom_name{
-    font-size: 24px;
-   
-}
-.paragraph{
-    margin-left: 0;
-    text-align: left;
-    margin-top: 37px;
-    font-size: 18px;
-}
-.content-options{
-    height: 40%;
-      position: absolute;
-    display: flex;
-    flex-direction: column;
-    top: 44%;
-    width: 100%;
-    justify-content: space-between;
-    margin: 0;
-}
-.footer{
-    position: relative;
-    top:-6%;
-   
-}
-.content-imgprofile{
-    display: flex;
-    width: 80%;
-    justify-content: center;
-}
-.text-bottom_name{
-    position: relative; 
-	float: left;
-}
-.text-bottom_name span {
-    position:absolute;
-    right:0;
-    width:0;
-    background: #e1e4e9;
-    border-left: 1px solid #000;
-    animation: escribir 5s steps(60) infinite alternate;
-}
-
-@keyframes escribir {
-    from { width: 100% }
-    to { width:0 }
-}
-.navbar-text {
-    color: white;
-    font-family: Sarala, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 12px;
-}
-.content-skills {
-    position: fixed;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    top: 0px;
-    width: 80%;
-    left: 20%;
-    min-height: calc(100vh - 15%);
-}
-.content-project {
-    
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    top: 12%;
-    width: 80%;
-    left: 20%;
-    min-height: calc(100vh - 15%);
-}
-.title-SkillProjects {
-    width: 96%;
-    font-size: 34px;
-    font-family: 'Sarala', sans-serif;
-    color: #574c4c;
-    margin: 0 0 0 4%;
     }
-.content-iconskills {
+
+    .aside-profile {
+        position: fixed;
+        justify-content: center;
+        display: flex;
+        width: 20%;
+        top: 0;
+        height: 100vh;
+        background: linear-gradient(to bottom, #574C4C 20%, #E29B99 20%, #E29B99 100%);
+    }
+
+    .aside-myphoto {
+        display: flex;
+        position: fixed;
+        width: 150px;
+        height: 150px;
+        border: 5px solid rgba(255, 255, 255, 0.5);
+        background-size: 100% auto;
+        top: 10%;
+        border-radius: 50%;
+    }
+
+    .content-top {
+        display: none;
+    }
+
+    .bottom-div {
+
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 75%;
+        left: 22%;
+        top: 0%;
+        justify-content: center;
+        min-height: calc(100vh - 15%);
+
+    }
+
+    .name span {
+        font-display: 'Sarala', sans-serif;
+        font-size: 42px;
+        color: black;
+
+    }
+
+    .text-bottom_name {
+        font-size: 24px;
+
+    }
+
+    .paragraph {
+        margin-left: 0;
+        text-align: left;
+        margin-top: 37px;
+        font-size: 18px;
+    }
+
+    .content-options {
+        height: 40%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 44%;
+        width: 100%;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .footer {
+        position: relative;
+        top: -6%;
+
+    }
+
+    .content-imgprofile {
+        display: flex;
+        width: 80%;
+        justify-content: center;
+    }
+
+    .text-bottom_name {
+        position: relative;
+        float: left;
+    }
+
+    .text-bottom_name span {
+        position: absolute;
+        right: 0;
+        width: 0;
+        background: #e1e4e9;
+        border-left: 1px solid #000;
+        animation: escribir 5s steps(60) infinite alternate;
+    }
+
+    @keyframes escribir {
+        from {
+            width: 100%
+        }
+
+        to {
+            width: 0
+        }
+    }
+
+    .navbar-text {
+        color: white;
+        font-family: Sarala, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .content-skills {
+        position: fixed;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        top: 0px;
+        width: 80%;
+        left: 20%;
+        min-height: calc(100vh - 15%);
+    }
+
+    .content-project {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        top: 12%;
+        width: 80%;
+        left: 20%;
+        min-height: calc(100vh - 15%);
+    }
+
+    .title-SkillProjects {
+        width: 96%;
+        font-size: 34px;
+        font-family: 'Sarala', sans-serif;
+        color: #574c4c;
+        margin: 0 0 0 4%;
+    }
+
+    .content-iconskills {
         display: flex;
         justify-content: center;
         width: 100%;
         align-items: center;
         flex-wrap: wrap;
-        
+
     }
 
     .content-icondetails {
-       
+
         background: #e29b9924;
     }
-.content-iconprojects {
-    width: 30%;
-    margin-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 2%;
-      
+
+    .content-iconprojects {
+        width: 30%;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 2%;
+
     }
-    .content-projectsdetails{
-      border-radius: 10px;
-        
+
+    .content-projectsdetails {
+        border-radius: 10px;
+
     }
-    .content-projectsdetails:hover{
+
+    .content-projectsdetails:hover {
         opacity: 0.4;
         cursor: pointer;
-        
+
     }
+
     .img-projects {
         width: 100%;
         height: 200px;
@@ -606,28 +655,39 @@ width: 150px;
         border: none;
     }
 
-    .name span:nth-child(2){
+    .name span:nth-child(2) {
         font-weight: 100;
-       
+
     }
 
+.img-preview {
+    height: 100%;
+    min-height: 400px;
+    width: 100%;
+    border-radius: 3px;
+    min-width: 1000px;
+}
+
     .fa-home:hover,
-.fa-tools:hover,
-.fa-briefcase:hover {
-    color: #574C4C;
-}
-.footer-ancle {
-    height: 25px;
-}
-.fa-github:hover,
-.fa-envelope:hover,
-.fa-linkedin-in:hover,
-.fa-file-download:hover,
-.fa-link:hover,
-.fa-search:hover {
-    color: #E29B99 ;
-}
-.rombo-icon{
-   background: #e29b9952;
-}
+    .fa-tools:hover,
+    .fa-briefcase:hover {
+        color: #574C4C;
+    }
+
+    .footer-ancle {
+        height: 25px;
+    }
+
+    .fa-github:hover,
+    .fa-envelope:hover,
+    .fa-linkedin-in:hover,
+    .fa-file-download:hover,
+    .fa-link:hover,
+    .fa-search:hover {
+        color: #E29B99;
+    }
+
+    .rombo-icon {
+        background: #e29b9952;
+    }
 }
