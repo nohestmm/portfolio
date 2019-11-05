@@ -81,11 +81,11 @@
 
 @keyframes escribir {
     from {
-        width: 30%
+        width: 28%
     }
 
     to {
-        width: 70%
+        width: 72%
     }
 }
 
@@ -235,8 +235,7 @@
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 30px 0px;
+       margin: 30px 0px;
 }
 
 .content-projectsdetails {
@@ -281,6 +280,7 @@
 .icons-bottomproject {
     display: flex;
     margin-top: 10px;
+    margin-left: 15px;
 }
 
 .rombo-icon {
