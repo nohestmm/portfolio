@@ -235,7 +235,7 @@
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
-       margin: 30px 0px;
+    margin: 30px 0px;
 }
 
 .content-projectsdetails {
@@ -280,7 +280,7 @@
 .icons-bottomproject {
     display: flex;
     margin-top: 10px;
-    margin-left: 15px;
+    padding-left: 15px;
 }
 
 .rombo-icon {
@@ -632,7 +632,7 @@
         margin-bottom: 40px;
         display: flex;
         flex-direction: column;
-        align-items: center;
+
         padding-left: 2%;
 
     }
@@ -660,13 +660,13 @@
 
     }
 
-.img-preview {
-    height: 100%;
-    min-height: 400px;
-    width: 100%;
-    border-radius: 3px;
-    min-width: 1000px;
-}
+    .img-preview {
+        height: 100%;
+        min-height: 400px;
+        width: 100%;
+        border-radius: 3px;
+        min-width: 1000px;
+    }
 
     .fa-home:hover,
     .fa-tools:hover,
@@ -689,5 +689,10 @@
 
     .rombo-icon {
         background: #e29b9952;
+    }
+
+    .preview-main {
+        top: 50%;
+
     }
 }
