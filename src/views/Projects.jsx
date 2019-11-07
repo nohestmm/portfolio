@@ -34,7 +34,7 @@ class Projects extends React.Component {
         <section className="content-project">
           <h1 className="title-SkillProjects">Portfolio</h1>
           <div className="content-rawprojects">
-            {
+           {
               data.map((el, index) =>
                 <div className="content-iconprojects" key={index}>
                   <div className="content-projectsdetails">
@@ -58,7 +58,7 @@ class Projects extends React.Component {
                     </a>
                   </div>
                 </div>
-              )
+              ) 
             }
           </div>
           <Preview
